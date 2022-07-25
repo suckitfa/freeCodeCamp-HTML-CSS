@@ -70,7 +70,7 @@
   
   body {
     font-family: 'Poppins', sans-serif;
-    font-size: 1.8rem; /* 18px */
+    font-size: 1.8rem; /*  18px */
     font-weight: 400;
     line-height: 1.4;
     color: var(--main-white);
@@ -109,7 +109,7 @@
   
   .nav {
     display: flex;
-    justify-content: flex-end;
+    justify-content:flex-end;
     position: fixed;
     top: 0;
     left: 0;
@@ -135,6 +135,7 @@
   }
   
   .nav-list a {
+    /* border:1px solid red; */
     display: block;
     font-size: 2.2rem;
     padding: 2rem;
@@ -147,6 +148,7 @@
   /* Welcome section */
   
   .welcome-section {
+    /* border:10px solid red; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -307,6 +309,7 @@
   /* Footer */
   
   footer {
+    border:20px solid green;
     font-weight: 300;
     display: flex;
     justify-content: space-evenly;
