@@ -309,7 +309,7 @@
   /* Footer */
   
   footer {
-    border:20px solid green;
+    /* border:20px solid green; */
     font-weight: 300;
     display: flex;
     justify-content: space-evenly;
