@@ -2,7 +2,17 @@
     padding: 0;
     margin: 0;
     /* border: 1px solid green; */
+    box-sizing: border-box;
 }
+/* debug */
+/* main {
+    border: 1px solid;
+}
+.item p {
+    border: 1px solid;
+} */
+
+/* body */
 body {
     background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
     font-family: sans-serif;
@@ -76,24 +86,24 @@ h2,h1 {
 
 footer {
     font-size: 14px;
-  }
-  
-  .address {
+}
+
+.address {
     margin-bottom: 5px;
-  }
-  
-  a {
+}
+
+a {
     color: black;
-  }
-  
-  a:visited {
+}
+
+a:visited {
     color: black;
-  }
-  
-  a:hover {
+}
+
+a:hover {
     color: brown;
-  }
-  
-  a:active {
+}
+
+a:active {
     color: brown;
-  }
+}
