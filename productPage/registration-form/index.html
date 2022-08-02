@@ -14,6 +14,28 @@
                 <label>Enter your Email: <input type="text" name="email" required></label>
                 <label>Enter your First Name: <input type="text" name="first-name" required></label>
             </fieldset>
+            <fieldset>
+                <label><input type="radio" name="account-type" class="inline">Personal Account</label>
+                <label><input type="radio" name="account-type" class="inline">Business Account</label>
+                <label><input type="checkbox" name="terms" class="inline">I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a></label>
+            </fieldset>
+            <fieldset>
+                <label>Upload a profile picture: <input type="file" name="file" /></label>
+                <label>Input your age (years): <input type="number" name="age" min="13" max="120"></label>
+                <label>How did you hear about us?
+                    <select name="referrer">
+                        <option value="">(select one)</option>
+                        <option value="1">freeCodeCamp News</option>
+                        <option value="2">freeCodeCamp YouTube Channel</option>
+                        <option value="3">freeCodeCamp Forum</option>
+                        <option value="4">Other</option>
+                    </select>
+                </label>
+                <label>Provide a bio:
+                    <textarea name="bio" id="" cols="30" rows="3" placeholder="I like coding........."></textarea>
+                </label>
+            </fieldset>
+            <input type="submit" value="Submit">
         </form>
     </body>
 </html>
